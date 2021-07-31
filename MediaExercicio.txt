@@ -1,0 +1,108 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MediaExercicio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string NomedoAluno1, NomedoAluno2, NomedoAluno3, NomedoAluno4;
+            double nota1, nota2, nota3, media;
+            double notaa, nota2b, nota3c, media1;
+            double nota1d, nota2e, nota3f, media2;
+            double nota1g, nota2h, nota3i, media3;
+
+            Console.WriteLine("Olá, seja bem-vindo a calculadora de média.");
+            Console.WriteLine("Digite o nome do primeiro aluno: ");
+            NomedoAluno1 = Console.ReadLine();
+
+            Console.WriteLine("Agora digite a primeira nota do aluno: ");
+            nota1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a segunda nota do aluno: ");
+            nota2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a terceira nota do aluno: ");
+            nota3 = Convert.ToDouble(Console.ReadLine());
+
+            media = (nota1 + nota2 + nota3) / 3;
+
+            Console.Clear();
+
+            Console.WriteLine("Digite o nome do segundo aluno: ");
+            NomedoAluno2 = Console.ReadLine();
+
+            Console.WriteLine("Agora digite a primeira nota do aluno: ");
+            notaa = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a segunda nota do aluno: ");
+            nota2b = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a terceira nota do aluno: ");
+            nota3c = Convert.ToDouble(Console.ReadLine());
+
+            media1 = (notaa + nota2b + nota3c) / 3;
+
+            Console.Clear();
+
+            Console.WriteLine("Digite o nome do terceiro aluno: ");
+            NomedoAluno3 = Console.ReadLine();
+
+            Console.WriteLine("Agora digite a primeira nota do aluno: ");
+            nota1d = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a segunda nota do aluno: ");
+            nota2e = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a terceira nota do aluno: ");
+            nota3f = Convert.ToDouble(Console.ReadLine());
+
+            media2 = (nota1d + nota2e + nota3f) / 3;
+
+            Console.Clear();
+
+            Console.WriteLine("Digite o nome do quarto aluno: ");
+            NomedoAluno4 = Console.ReadLine();
+
+            Console.WriteLine("Agora digite a primeira nota do aluno: ");
+            nota1g = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a segunda nota do aluno: ");
+            nota2h = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Agora digite a terceira nota do aluno: ");
+            nota3i = Convert.ToDouble(Console.ReadLine());
+
+            media3 = (nota1g + nota2h + nota3i) / 3;
+
+            Console.Clear();
+
+            Console.WriteLine("Segue a média de todos os alunos inseridos: ");
+
+            Console.WriteLine("O aluno: " + NomedoAluno1);
+            Console.WriteLine("Média: " + media);
+
+            Console.WriteLine("O aluno: " + NomedoAluno2);
+            Console.WriteLine("Média: " + media1);
+
+            Console.WriteLine("O aluno: " + NomedoAluno3);
+            Console.WriteLine("Média: " + media2);
+
+            Console.WriteLine("O aluno: " + NomedoAluno4);
+            Console.WriteLine("Média: " + media3);
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+        }
+    }
+}
